@@ -4,18 +4,17 @@
 [ext_resource type="Script" uid="uid://cymiqjy1dw4b2" path="res://assets/scripts/player.gd" id="1_g2els"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g2els"]
-radius = 36.0
-height = 98.0
+radius = 80.0
+height = 254.0
 
 [node name="Player" type="CharacterBody2D"]
 rotation = 6.2831855
 script = ExtResource("1_g2els")
-base_speed = 200
-rotation_speed = 3
-
-[node name="Egg" type="Sprite2D" parent="."]
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("1_3vyb7")
+base_speed = 100
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_g2els")
+
+[node name="Egg" type="Sprite2D" parent="."]
+position = Vector2(0, 5)
+texture = ExtResource("1_3vyb7")

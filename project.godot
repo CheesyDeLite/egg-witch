@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Egg Witch"
-run/main_scene="uid://b06h2yoywwenl"
+run/main_scene="uid://u7uj13gqtrxi"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://assets/sprites/icon.svg"
 
